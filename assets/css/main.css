@@ -1,0 +1,215 @@
+@font-face{
+	font-family: alte;
+	src: url(../fonts/AlteHaasGroteskBold.ttf);
+}
+
+@font-face{
+	font-family:Univers;
+	src: url("http://www.myfontfree.com/data/541/u/universltstdxblackex/UniversLTStd-XBlackEx.otf");
+}
+
+#pink header .wrapper{
+	width:  980px;
+	margin: 20px auto;
+	vertical-align: middle;
+}
+
+#pink header{
+	background-image: url("../img/header.png");
+	height: 90px;
+	font-family: sans-serif;
+	margin-top: -20px;
+}
+
+header img{
+	float: left;
+	margin-top: 15px;
+}
+
+header nav{
+	float: right;
+	margin-top: 30px;
+}
+
+header nav ul{
+	list-style: none;
+}
+
+header nav ul li{
+	float: left;
+	margin-right: 30px;
+}
+
+header nav ul li a, header nav ul li a:hover{
+	text-decoration: none;
+	color: #454545;
+	font-size: 17px;
+	letter-spacing: 2px;
+}
+
+header nav ul .login{
+	padding: 5px 10px;
+	background-color: rgb(222,109,110);
+	border-radius: 3px;
+	margin-top: -5px;
+}
+
+header nav ul .login a, header nav ul .login a:hover{
+	color: white;
+}
+
+.banner{
+	height: 590px;
+	background-image: url("../img/flower.jpg");
+	margin-top: -90px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	z-index: -1;
+}
+
+.banner .wrapper{
+	width:  980px;
+	margin: 0 auto;
+	vertical-align: middle;
+}
+
+.banner .el1{
+	padding-top: 260px;
+	opacity: 0.6;
+	position: relative;
+	padding-left: 400px;
+}
+
+.banner .el2{
+	padding-top: 200px;
+	opacity: 0.6;
+	position: absolute;
+	left: 770px;
+	z-index: 0;
+}
+
+.banner .el3{
+	opacity: 0.6;
+	position: relative;
+	z-index: 1;
+	padding-top: 230px;
+	left: -170px;
+}
+
+.banner .title{
+	text-align: center;
+}
+
+.banner .title h1{
+	font-family: alde;
+	font-size: 64px;
+	color: white;
+	text-shadow: 0 1px 0 black;
+}
+
+.banner .title h6{
+	font-family: Univers sans-serif;
+	color: white;
+	font-size: 25px;
+	opacity: 0.8;
+}
+
+.section2{
+	height: 470px;
+	background-color: white;
+}
+
+.wrap{
+	text-align: center;
+	width: 980px;
+	margin: 0 auto;
+}
+
+.section2 h3{
+	font-family: Univers sans-serif;
+	font-size: 35px;
+	color: #404040;
+	padding-top: 50px;
+	letter-spacing: 1px;
+}
+
+.section2 .stext{
+	font-family: Univers sans-serif;
+	color: #636363;
+	font-size: 17px;
+	letter-spacing: 1px;
+}
+
+.section2 .col-md-3{
+	padding-top: 60px;
+}
+
+.newsfeed{
+	background-color: white;
+	border-top: solid 3px rgb(233,233,233);
+	height: 670px;
+}
+
+.newsfeed .info{
+	margin-top: 40px;
+}
+
+.newsfeed .info h5{
+	font-family: Univers sans-serif;
+	font-size: 27px;
+	color: #404040;
+	letter-spacing: 1px;
+}
+
+.newsfeed .info .infotext{
+	font-family: Univers sans-serif;
+	font-size: 15px;
+	color: #8b8b8b;
+	letter-spacing: 1px;
+}
+
+.newsfeed .col-md-9{
+	text-align: left;
+	margin-bottom: 75px;
+}
+
+footer{
+	height: 260px;
+	background-image: url("../img/footer.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+footer h6{
+	font-family: Univers sans-serif;
+	font-size: 21px;
+	color: #aeaeae;
+}
+
+footer ul{
+	list-style: none;
+	margin-left: -40px;
+}
+
+footer ul li a, footer ul li a:hover{
+	text-decoration: none;
+	color: #8b8b8b;
+	font-size: 15px;
+	font-family: Universal sans-serif;
+}
+
+footer .wrap{
+	text-align: left;
+}
+
+footer .row{
+	margin-top: 40px;
+}
+
+footer p{
+	font-family: Univers sans-serif;
+	color: #8b8b8b;
+	font-size: 15px;
+	margin-top: 25px;
+}
